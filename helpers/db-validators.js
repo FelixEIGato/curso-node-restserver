@@ -23,6 +23,8 @@ let existeUsuarioPorId = async ( id ) => {
     }   
 }
 
+
+
 module.exports = {
     esRoleValido,
     esEmailValido,
