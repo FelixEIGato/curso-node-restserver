@@ -16,7 +16,6 @@ const esAdminRole = ( req, res = response, next ) => {
             msg:`${nombre} no es administrador - No puede hacer esto`
         })
     }
-
     next();
 }
 
